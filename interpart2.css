@@ -1,0 +1,60 @@
+body {
+	font-family: helvetica: ;
+}
+
+.MContainer {
+	width: 100%px;
+	height: 710px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.Container {
+	width: 90%px;
+	height: 700px;
+	margin: 5px auto;
+	
+}
+
+.item1 {
+	font-size: 30px;
+	font-weight: bold;
+	align-items: flex-start;
+}
+
+.item2 {
+	font-size: 14px;
+	display: inline;
+	font-weight: bold;
+}
+hr {
+	border: solid black 3px;
+}
+
+.item3 {
+	font-size: 10px;
+	font-weight: bold;
+	float: right;
+}
+
+.item3::after {
+	clear:  both;
+}
+
+.row3 {
+	display: flex;
+	justify-content: flex-end;
+	position: relative
+
+
+
+
+	
+}
+
+
+.row2 {
+	display: flex;
+	justify-content: center;
+	position: relative;	
+}
